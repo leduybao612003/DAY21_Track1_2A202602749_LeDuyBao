@@ -1,8 +1,11 @@
 # Lab 21 - Phân tích rủi ro AI qua case study thực tế
 
 - **Họ và tên:** Lê Duy Bảo
+
 - **Mã học viên:** 2A202602749
+
 - **Lớp:** Track 1 - L34B
+
 - **Ngành đã chọn:** Mobility / autonomous driving - AI trong di chuyển, xe tự hành
 
 ### 1. Industry Risk Snapshot
@@ -21,8 +24,8 @@
 - Tổ chức / sản phẩm AI: VinAI / Touch2Park, thuộc nhóm SurroundSense.
 - Thời gian, địa điểm / bối cảnh: Sản phẩm được VinAI giới thiệu trong thông cáo tại Hà Nội tháng 10/2024. Tình huống phân tích từ tài liệu được cung cấp là đỗ xe tại gara tối hoặc chỗ đỗ hẹp.
 - AI được dùng để làm gì: Nhận biết không gian xung quanh và hỗ trợ tự động đỗ vào vị trí người lái chọn trên màn hình.
-- Vấn đề hoặc sự kiện đáng chú ý: Mục A.1–A.2 của Problems Final Content.docx nêu nguy cơ sai lệch khoảng cách, điểm mù và suy giảm nhận biết khi thiếu sáng, chói sáng hoặc camera bị che bẩn. Đây là phân tích nguy cơ; các ví dụ người dùng trong tài liệu không có nguồn gốc đủ để xác nhận là sự cố Touch2Park.
-- Số liệu có nguồn: VinAI công bố Touch2Park sử dụng 4 camera mắt cá, cung cấp góc nhìn 360°, theo thông cáo tháng 10/2024; đây là cấu hình liên quan trực tiếp đến rủi ro phụ thuộc hình ảnh, không phải tỷ lệ an toàn. Trong VinAI_Autoparking_CompareChart.xlsb.xlsx, sheet Performance_Safety, ô H60 và H62 đặt mục tiêu phát hiện đúng ≥90% và bỏ sót chỗ đỗ phù hợp <10% trong điều kiện môi trường kém. Đây là mục tiêu nhận biết chỗ đỗ, không phải kết quả thử nghiệm hay tỷ lệ bỏ sót người đi bộ; chưa có thời gian đo hoặc cỡ mẫu.
+- Vấn đề hoặc sự kiện đáng chú ý: nguy cơ sai lệch khoảng cách, điểm mù và suy giảm nhận biết khi thiếu sáng, chói sáng hoặc camera bị che bẩn. Đây là phân tích nguy cơ; các ví dụ người dùng trong tài liệu không có nguồn gốc đủ để xác nhận là sự cố Touch2Park.
+- Số liệu có nguồn: VinAI công bố Touch2Park sử dụng 4 camera mắt cá, cung cấp góc nhìn 360°, theo thông cáo tháng 10/2024; đây là cấu hình liên quan trực tiếp đến rủi ro phụ thuộc hình ảnh, không phải tỷ lệ an toàn.
 - **Nguồn:** [VinAI Wins “Smart Parking Innovation of the Year” For Touch2Park In 2024 AutoTech Breakthrough Awards Program](https://www.vinai.io/vinai-wins-smart-parking-innovation-of-the-year-for-touch2park-in-2024-autotech-breakthrough-awards-program/) - VinAI - ngày hiển thị 21/10/2024, nội dung thông cáo ghi 22/10/2024.
 - Phân biệt bằng chứng và nhận định: Nguồn chính thức xác nhận cấu hình camera → suy luận nguy cơ va chạm nếu nhận biết thất bại và người lái không can thiệp. Chưa có bằng chứng sản phẩm đã gây va chạm, chưa chứng minh camera kém an toàn hơn cảm biến siêu âm.
 
